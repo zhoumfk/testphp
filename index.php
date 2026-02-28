@@ -16,7 +16,4 @@ echo "<li><strong>服务器软件:</strong> " . $_SERVER['SERVER_SOFTWARE'] . "<
 echo "<li><strong>PHP 运行模式:</strong> " . php_sapi_name() . "</li>";
 echo "</ul>";
 
-// 5. 著名的 phpinfo() 函数，查看所有配置（开发阶段非常有用）
-// 如果你不想看到超长的配置列表，可以把下面这行注释掉
-phpinfo();
 ?>
